@@ -1,6 +1,5 @@
 import React from "react";
 import './style.scss'
-// import Cookies from "universal-cookie";
 import Signup from "./pages/Signup";
 import Signin from "./pages/Signin";
 import Home from "./pages/Home"
@@ -9,8 +8,13 @@ import { AuthContext } from "./context/AuthContext";
 import { Routes, Route, Navigate } from 'react-router-dom'
 
 
-// const cookies = new Cookies();
-
+// last updated May 30, 2023
+// TO-DO:
+  // Error handling:
+    // Error message if no user is selected for chat
+  // More intuitive add users feature
+  // dont allow duplicate display names
+  // 2FA/email verification? 
 
 function App() {
   const { currentUser } = useContext(AuthContext);

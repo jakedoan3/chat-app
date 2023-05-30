@@ -19,9 +19,9 @@ const Signup = () => {
     const passwordConfirm = e.target[3].value;
     const file = e.target[4].files[0];
 
-    // if (password !== passwordConfirm) {
-    //   return setError("Passwords must match");
-    // }
+    if (password !== passwordConfirm) {
+      return setError("Passwords must match");
+    }
 
     // if (!displayName || !email || !password || !passwordConfirm || !file) {
     //   return setError("Please fill out all fields");
