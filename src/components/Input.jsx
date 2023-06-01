@@ -96,7 +96,9 @@ const Input = () => {
             <BsFillImageFill />
           </span>
         </label>
-        <button onClick={handleSend}>
+        <button 
+        disabled={!this.input.value}
+        onClick={handleSend}>
           <span>
             <BsSendFill />
           </span>

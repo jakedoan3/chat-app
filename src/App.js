@@ -8,13 +8,13 @@ import { AuthContext } from "./context/AuthContext";
 import { Routes, Route, Navigate } from 'react-router-dom'
 
 
-// last updated May 31, 2023
+// last updated June 1, 2023
 // TO-DO:
   // Error handling:
     // Error message if no user is selected for chat
   // More intuitive add users feature
   // dont allow duplicate display names
-  // 2FA/email verification? 
+  // 2FA/email verification? might cost $
 
 function App() {
   const { currentUser } = useContext(AuthContext);
