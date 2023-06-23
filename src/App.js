@@ -8,7 +8,7 @@ import { AuthContext } from "./context/AuthContext";
 import { Routes, Route, Navigate } from 'react-router-dom'
 
 
-// last updated June 22, 2023
+// last updated June 23, 2023
 // TO-DO:
   // Error handling:
     // Error message if no user is selected for chat
